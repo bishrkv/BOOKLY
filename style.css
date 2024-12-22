@@ -1,0 +1,249 @@
+.div-one{
+    width: 410px;
+   
+    height: 960px;
+    margin-top: -20PX;
+}
+.upper-logo{
+    display: flex;
+    flex-direction: row;
+}
+.upper-logo h1{
+    /* font-family: dgsdfus; */
+    font-weight: 450;
+    font-size: 30px;
+    transform: translateY(20px);
+    margin-left:60px;
+}
+.menu-icon{
+    width: 32px;
+    margin-top: 43px;
+    margin-left: 170px;
+}
+.me{
+    font-weight: 100;
+    font-size: 24px;
+    color: #A7A3A3;
+    font-family: poppins;
+    text-align: center;
+}
+.four-dot{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.four-dot2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    transform: translateY(20px);
+}
+.nav-h1{
+   color: #434343;
+   font-family: sans-serif;
+   font-weight: 100;
+   margin-left: 110px;
+   font-size: 28px
+}
+.nav-icon{
+    width: 35px;
+    margin-left: 30px;
+    color: #272727;
+}
+.line{
+    width: 300px;
+    height: 5px;
+    background-color: #434343;
+    opacity: 27%;
+    border-radius: 12px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.end-logo img{
+    width: 300px;
+    margin-left: 50px;
+}
+.two-divs{
+  display: flex;
+  flex-direction: row;
+}
+.div-two{
+   width: 1410px;
+   height: 600px;
+   background-color: #DAD4BE;
+   border-bottom-left-radius: 100px;
+   margin-left: 80px;
+   border: none;
+}
+.disc h1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-left: -820px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    height: 50px;
+    width: 375px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+    flex-grow: 1; /* Allow the input to take up available space */
+    font-size: 15px;
+}
+
+.search-button {
+    background-color: #192F1D; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+   transform: translateX(-10px);
+    
+}
+
+.search-button:hover {
+    background-color: #070f08; /* Darker shade for hover effect */
+}
+.new-arrivals h1{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.new-img{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.new-img img{
+    width: 200px;
+    border-radius: 3px;
+}
+.urd{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 20px;
+}
+.feacherd-books h1{
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.feacherd-books img {
+    width: 200px;
+    object-fit: cover;
+}
+.as{
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+    margin-top: -65px;
+}
+.as h1{
+    font-weight: 400;
+}
+.hash{
+    transform: translateX(-30px);
+}
+.author h1{
+    margin-top: -15px;
+    margin-left: -0px;
+    font-size: 16px;
+    color: #434343;
+}
+.rating {
+    display: flex;
+   margin-top: -18px;
+   /* Reverse the order of the stars */
+    font-size: 0;
+   /* Remove the space between the elements */
+  }
+  
+  .rating input[type="radio"] {
+    display: none;
+   /* Hide the radio buttons */
+  }
+  
+  .rating label {
+    font-size: 30px;
+    color: rgba(187, 183, 183, 0.726);
+   /* Empty star color */
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  
+  .rating label:before {
+    content: "\2605";
+   /* Unicode character for filled star */
+  }
+  
+  .rating input[type="radio"]:checked ~ label:before {
+    
+   /* Unicode character for empty star */
+    color: #e58e09;
+   /* Filled star color */
+  }
+  .read-more{
+    height: 28px;
+    width: 92px;
+    background-color: #48582E;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    transform: translateX(15px);
+  }
+  .buttonss{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+  .sv{
+    background-color: #48582E;
+    border: none;
+    border-radius: 3px;
+    margin-left: 45px;
+  }
+  .sv img{
+    width: 20px;
+   
+  }
+  .b1{
+    margin-left: 20px;
+  }
+  
+  .feacherd-books{
+    width: 1200px;
+    height: 1900px;
+    margin-top: 40px;
+    background-color: #070f08;
+    opacity: 10%;
+   
+  }
